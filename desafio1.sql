@@ -47,12 +47,13 @@ CREATE TABLE SpotifyClone.musicas(
 ) engine = InnoDB;
 
 CREATE TABLE SpotifyClone.reproducao(
-  reproducao_id INT PRIMARY KEY AUTO_INCREMENT,
+  -- reproducao_id INT PRIMARY KEY AUTO_INCREMENT,
   musica_id INT NOT NULL,
   usuario_id INT NOT NULL,
   data_de_reproducao DATETIME,
   FOREIGN KEY (musica_id) REFERENCES SpotifyClone.musicas(musica_id),
-  FOREIGN KEY (usuario_id) REFERENCES SpotifyClone.usuario(usuario_id)
+  FOREIGN KEY (usuario_id) REFERENCES SpotifyClone.usuario(usuario_id),
+  CONSTRAINT PRIMARY KEY(musica_id, usuario_id)
 ) engine = InnoDB;
 
 INSERT INTO SpotifyClone.planos(plano_nome, plano_valor)
