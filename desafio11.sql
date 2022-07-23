@@ -1,3 +1,7 @@
+-- Resolução baseada na resolução presente no StackOverFlow 
+-- sobre a utilização do WHEN com LIKE e REPLACE
+-- link: https://stackoverflow.com/questions/27435574/tsql-case-when-like-replace
+
 SELECT 
   titulo AS "nome_musica", 
   CASE 
