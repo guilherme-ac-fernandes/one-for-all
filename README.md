@@ -14,6 +14,7 @@ A partir de uma tabela de um banco de dados contendo um SpotifyClone, esse proje
 docker-compose up -d
 docker attach one_for_all 
 npm install // para instalar as dependências
+docker-compose down // para parar completamente a aplicação
 ```
 
 ### Desafios
