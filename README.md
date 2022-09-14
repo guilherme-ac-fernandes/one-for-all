@@ -1,4 +1,4 @@
-# One for all 👤
+# Projeto One for all 👤
 
 A partir de uma tabela de um banco de dados contendo um SpotifyClone, esse projeto consistiu na normalização das informações a aplicação de desafios para obtenção de informações utilizando o MySQL. 
 
