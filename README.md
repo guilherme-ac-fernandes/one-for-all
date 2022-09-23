@@ -1,6 +1,6 @@
 # Projeto One for all 👤
 
-A partir de uma tabela de um banco de dados contendo um SpotifyClone, esse projeto consistiu na normalização das informações a aplicação de desafios para obtenção de informações utilizando o MySQL. 
+A partir de uma tabela de um banco de dados contendo um SpotifyClone, esse projeto consiste na normalização das informações da aplicação e a realização de desafios para obter as informações desejada utilizando o MySQL. 
 
 * Projeto desenvolvido com MySQL e Docker
 * Aplicação do conhecimento da normalização do banco de dados seguindo as Formas Normais.
